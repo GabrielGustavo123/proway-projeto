@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade</title>
+    <title>Biblioteca</title>
+    <link rel="icon" type="image/png" href="assets/Logo.png">
 </head>
 <body>
-    <h1>Inicio</h1>
+    <h1>Entrar</h1>
+
+    <form action="menu.html">
+        <label for="campo-email">Email</label>
+        <input type="email" name="Email" id="campo-email" required><br>
+        
+        <label for="campo-password">Senha</label>
+        <input type="password" name="Senha" id="campo-password" required><br>
+
+        <label for="campo-nome">Nome de Usuario</label>
+        <input type="text" id="campo-nome" name="Usuario" required><br>
+
+        <button type="submit"><i class="fa-solid fa-door-open"></i>Entrar</button> <a href="Login.html"><i class="fa-solid fa-user"></i>Criar Conta</a>
+    </form>
+    <script src="https://kit.fontawesome.com/ed9fdacf71.js" crossorigin="anonymous"></script>
 </body>
 </html>

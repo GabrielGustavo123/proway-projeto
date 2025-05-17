@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="icon" type="image/png" href="/assets/Logo.png">
+</head>
+<body>
+    <a href="index.html"><i class="fa-solid fa-arrow-left"></i>Voltar</a>
+    <script src="https://kit.fontawesome.com/ed9fdacf71.js" crossorigin="anonymous"></script>
+
+    <h1>Cadastrar Livros</h1>
+    <form action="index.html">
+        <label for="campo-titulo">Titulo</label>
+        <input type="text" id="campo-titulo" name="Titulo" required><br>
+
+        <label for="campo-autor">Autor</label>
+        <input type="text" id="campo-autor" name="Autor" required><br>
+
+        <label for="campo-data">Data de lançamento</label>
+        <input type="date" id="campo-data" name="Lançamento" required><br>
+
+        <p><label for="campo-resumo">Conteudo:</label></p>
+        <textarea id="campo-resumo" name="Resumo" rows="4" cols="50" required>Digite Aqui.</textarea><br>
+
+        <label for="campo-tipo">Tipo</label>
+        <input list="campo-tipo" id="campo-tipo" name="Tipo" required>
+        <datalist id="campo-tipo">
+            <option value="HQ">
+            <option value="Poema">
+            <option value="Jornalistico">
+        </datalist><br>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>

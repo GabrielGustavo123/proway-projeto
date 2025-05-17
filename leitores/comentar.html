@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="icon" type="image/png" href="/assets/Logo.png">
+</head>
+<body>
+    <a href="index.html"><i class="fa-solid fa-arrow-left"></i>Voltar</a>
+    <h1>Comente</h1>
+
+    <form action="index.html">
+        <p><label for="campo-comentario">Comentario:</label></p>
+        <textarea id="campo-comentario" name="Comentario" rows="4" cols="50" required>Comente Aqui.</textarea><br>
+
+        <label for="campo-file">Selecionar arquivo</label>
+        <input type="file" id="campo-file" name="arquivo"><br>
+
+        <label for="campo-qualidade">Qualidade</label>
+        <select name="Qualidade" id="campo-qualidade" required>
+            <option>Ruim</option>
+            <option>Bom</option>
+        </select><br>
+
+        <button type="submit">Comentar</button>
+    </form>
+
+    <script src="https://kit.fontawesome.com/ed9fdacf71.js" crossorigin="anonymous"></script>
+</body>
+</html>
